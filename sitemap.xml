@@ -1,17 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://alastic.id/</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/about.html</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/privacy.html</loc><lastmod>2026-10-28</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://alastic.id/</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/"/>
+  </url>
+  <url><loc>https://alastic.id/id/</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/"/>
+  </url>
+  <url><loc>https://alastic.id/about.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/about.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/about.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/about.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/about.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/about.html"/>
+  </url>
+  <url><loc>https://alastic.id/privacy.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/privacy.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/privacy.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/privacy.html"/>
+  </url>
+  <url><loc>https://alastic.id/guides/</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/"/>
+  </url>
+  <url><loc>https://alastic.id/id/guides/</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/"/>
+  </url>
+  <url><loc>https://alastic.id/guides/prepaid-electricity-tracking.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/prepaid-electricity-tracking.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/token-listrik-prabayar.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/prepaid-electricity-tracking.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/guides/token-listrik-prabayar.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/prepaid-electricity-tracking.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/token-listrik-prabayar.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/prepaid-electricity-tracking.html"/>
+  </url>
+  <url><loc>https://alastic.id/guides/qr-payment-scams.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/qr-payment-scams.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/qris-aman-sebelum-bayar.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/qr-payment-scams.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/guides/qris-aman-sebelum-bayar.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/qr-payment-scams.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/qris-aman-sebelum-bayar.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/qr-payment-scams.html"/>
+  </url>
+  <url><loc>https://alastic.id/guides/vehicle-service-intervals.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/vehicle-service-intervals.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/vehicle-service-intervals.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/vehicle-service-intervals.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/guides/vehicle-service-intervals.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/vehicle-service-intervals.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/vehicle-service-intervals.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/vehicle-service-intervals.html"/>
+  </url>
+  <url><loc>https://alastic.id/guides/food-dates-explained.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/food-dates-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/food-dates-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/food-dates-explained.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/guides/food-dates-explained.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/food-dates-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/food-dates-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/food-dates-explained.html"/>
+  </url>
+  <url><loc>https://alastic.id/guides/houseplant-watering-schedule.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/houseplant-watering-schedule.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/houseplant-watering-schedule.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/houseplant-watering-schedule.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/guides/houseplant-watering-schedule.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/houseplant-watering-schedule.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/houseplant-watering-schedule.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/houseplant-watering-schedule.html"/>
+  </url>
+  <url><loc>https://alastic.id/guides/find-forgotten-subscriptions.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/find-forgotten-subscriptions.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/find-forgotten-subscriptions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/find-forgotten-subscriptions.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/guides/find-forgotten-subscriptions.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/find-forgotten-subscriptions.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/find-forgotten-subscriptions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/find-forgotten-subscriptions.html"/>
+  </url>
+  <url><loc>https://alastic.id/guides/thermal-printer-guide.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/thermal-printer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/thermal-printer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/thermal-printer-guide.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/guides/thermal-printer-guide.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/thermal-printer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/thermal-printer-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/thermal-printer-guide.html"/>
+  </url>
+  <url><loc>https://alastic.id/guides/laundry-pricing-per-kilo.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/laundry-pricing-per-kilo.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/harga-laundry-kiloan.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/laundry-pricing-per-kilo.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/guides/harga-laundry-kiloan.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/laundry-pricing-per-kilo.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/harga-laundry-kiloan.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/laundry-pricing-per-kilo.html"/>
+  </url>
+  <url><loc>https://alastic.id/guides/calm-an-overloaded-mind.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/calm-an-overloaded-mind.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/tenangkan-pikiran-lima-cara.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/calm-an-overloaded-mind.html"/>
+  </url>
+  <url><loc>https://alastic.id/id/guides/tenangkan-pikiran-lima-cara.html</loc><lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alastic.id/guides/calm-an-overloaded-mind.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://alastic.id/id/guides/tenangkan-pikiran-lima-cara.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alastic.id/guides/calm-an-overloaded-mind.html"/>
+  </url>
   <url><loc>https://alastic.id/rebahan-alert.html</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/guides/</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/guides/token-listrik-prabayar.html</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/guides/qris-aman-sebelum-bayar.html</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/guides/vehicle-service-intervals.html</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/guides/food-dates-explained.html</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/guides/houseplant-watering-schedule.html</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/guides/find-forgotten-subscriptions.html</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/guides/thermal-printer-guide.html</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/guides/harga-laundry-kiloan.html</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://alastic.id/guides/tenangkan-pikiran-lima-cara.html</loc><lastmod>2026-10-28</lastmod></url>
 </urlset>

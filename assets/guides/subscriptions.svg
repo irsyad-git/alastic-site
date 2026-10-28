@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Illustration of stacked subscription cards with coins dripping away">
+<g transform="rotate(-8 330 200)"><rect x="170" y="130" width="300" height="170" rx="22" fill="#C7D2FE" stroke="#6366F1" stroke-width="5"/></g>
+<g transform="rotate(4 330 200)"><rect x="180" y="110" width="300" height="170" rx="22" fill="#BAE6FD" stroke="#0EA5E9" stroke-width="5"/></g>
+<rect x="190" y="84" width="300" height="170" rx="22" fill="#fff" stroke="#4F46E5" stroke-width="6"/>
+<rect x="190" y="116" width="300" height="34" fill="#1E1B4B"/>
+<rect x="218" y="176" width="110" height="14" rx="7" fill="#C7D2FE"/><rect x="218" y="204" width="70" height="14" rx="7" fill="#E0E7FF"/>
+<rect x="400" y="190" width="62" height="40" rx="8" fill="#FBBF24"/>
+<g fill="#FBBF24" stroke="#F59E0B" stroke-width="4"><circle cx="560" cy="150" r="30"/><circle cx="610" cy="236" r="24"/><circle cx="560" cy="310" r="18"/></g>
+<g font-family="sans-serif" font-weight="700" fill="#B45309" text-anchor="middle"><text x="560" y="162" font-size="34">$</text><text x="610" y="246" font-size="28">$</text><text x="560" y="317" font-size="22">$</text></g>
+<path d="M500 160 Q520 160 524 150" fill="none" stroke="#94A3B8" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round"/>
+<g fill="#38BDF8"><path d="M690 100 C682 118 676 126 676 136 A14 14 0 0 0 704 136 C704 126 698 118 690 100 Z"/><path d="M730 180 C724 192 720 198 720 206 A10 10 0 0 0 740 206 C740 198 736 192 730 180 Z"/></g>
+</svg>

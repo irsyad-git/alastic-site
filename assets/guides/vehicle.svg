@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Illustration of a car next to an odometer gauge and a wrench">
+<path d="M60 250 H330 Q352 250 352 228 V206 Q352 190 336 184 L290 168 L258 122 Q248 108 230 108 H150 Q132 108 122 122 L92 168 L72 176 Q58 182 58 198 V240 Z" fill="#818CF8" stroke="#4F46E5" stroke-width="6" stroke-linejoin="round"/>
+<path d="M112 168 L136 128 H224 L246 168 Z" fill="#E0F2FE" stroke="#4F46E5" stroke-width="5" stroke-linejoin="round"/>
+<g><circle cx="130" cy="252" r="38" fill="#1E293B"/><circle cx="130" cy="252" r="16" fill="#CBD5E1"/><circle cx="286" cy="252" r="38" fill="#1E293B"/><circle cx="286" cy="252" r="16" fill="#CBD5E1"/></g>
+<rect x="326" y="196" width="20" height="14" rx="5" fill="#FBBF24"/>
+<path d="M60 300 H350" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 14"/>
+<circle cx="560" cy="170" r="120" fill="#fff" stroke="#6366F1" stroke-width="6"/>
+<path d="M468 220 A100 100 0 1 1 652 220" fill="none" stroke="#E0E7FF" stroke-width="18" stroke-linecap="round"/>
+<path d="M468 220 A100 100 0 0 1 560 70" fill="none" stroke="#34D399" stroke-width="18" stroke-linecap="round"/>
+<path d="M560 70 A100 100 0 0 1 625 96" fill="none" stroke="#FBBF24" stroke-width="18" stroke-linecap="round"/>
+<path d="M560 176 L612 124" stroke="#1E1B4B" stroke-width="8" stroke-linecap="round"/><circle cx="560" cy="176" r="14" fill="#1E1B4B"/>
+<rect x="506" y="214" width="108" height="34" rx="8" fill="#1E1B4B"/><g font-family="ui-monospace,Menlo,monospace" font-size="22" font-weight="700" fill="#34D399"><text x="518" y="239">48,250</text></g>
+<g transform="rotate(35 700 70)"><rect x="692" y="30" width="16" height="90" rx="8" fill="#94A3B8"/><circle cx="700" cy="30" r="22" fill="#94A3B8"/><rect x="694" y="2" width="12" height="26" fill="#EEF0FF"/></g>
+</svg>

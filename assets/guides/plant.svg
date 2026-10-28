@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Illustration of a potted plant with water drops and sunlight">
+<circle cx="620" cy="90" r="46" fill="#FBBF24"/><g stroke="#FBBF24" stroke-width="8" stroke-linecap="round"><path d="M620 18 V0"/><path d="M620 162 V180"/><path d="M548 90 H530"/><path d="M692 90 H710"/><path d="M570 40 L558 28"/><path d="M670 140 L682 152"/><path d="M670 40 L682 28"/><path d="M570 140 L558 152"/></g>
+<path d="M300 220 H500 L478 330 Q476 342 464 342 H336 Q324 342 322 330 Z" fill="#F59E0B" stroke="#B45309" stroke-width="5" stroke-linejoin="round"/>
+<rect x="290" y="204" width="220" height="30" rx="10" fill="#FBBF24" stroke="#B45309" stroke-width="5"/>
+<path d="M400 206 V90" stroke="#059669" stroke-width="8" stroke-linecap="round"/>
+<path d="M400 140 C350 150 316 118 314 70 C366 66 398 96 400 140 Z" fill="#34D399" stroke="#059669" stroke-width="5" stroke-linejoin="round"/>
+<path d="M400 120 C450 126 486 94 488 46 C436 44 402 74 400 120 Z" fill="#6EE7B7" stroke="#059669" stroke-width="5" stroke-linejoin="round"/>
+<path d="M400 180 C352 190 322 162 320 118 C368 114 398 142 400 180 Z" fill="#10B981" stroke="#059669" stroke-width="5" stroke-linejoin="round"/>
+<path d="M400 168 C446 172 478 144 480 102 C434 100 402 126 400 168 Z" fill="#34D399" stroke="#059669" stroke-width="5" stroke-linejoin="round"/>
+<g fill="#38BDF8"><path d="M160 130 C150 150 142 160 142 172 A18 18 0 0 0 178 172 C178 160 170 150 160 130 Z"/><path d="M210 210 C202 226 196 234 196 244 A14 14 0 0 0 224 244 C224 234 218 226 210 210 Z"/><path d="M120 230 C112 244 108 250 108 258 A12 12 0 0 0 132 258 C132 250 128 244 120 230 Z"/></g>
+</svg>

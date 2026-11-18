@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Setrum: Aplikasi Cek Sisa Token Listrik &amp; Kalkulator kWh Prabayar</title>
+  <meta name="description" content="Setrum memantau sisa token listrik prabayar, menghitung pemakaian kWh harian, dan memprediksi kapan token habis. Ada kalkulator token dan alat listrik. Gratis, offline, tanpa akun, tanpa iklan.">
+  <link rel="canonical" href="https://alastic.id/setrum/">
+  <link rel="alternate" hreflang="id" href="https://alastic.id/setrum/">
+  <link rel="alternate" hreflang="en" href="https://alastic.id/setrum/#en">
+  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Setrum: Cek Sisa Token Listrik &amp; Prediksi Kapan Habis">
+  <meta property="og:description" content="Tahu sisa token listrik kapan saja dan dapat peringatan sebelum meteran berbunyi. Gratis di Google Play.">
+  <meta property="og:url" content="https://alastic.id/setrum/">
+  <meta property="og:image" content="https://alastic.id/assets/setrum/feature-graphic-id.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .shots { display: flex; gap: 14px; overflow-x: auto; padding: 4px 2px 12px; scroll-snap-type: x mandatory; }
+    .shots img { width: 200px; height: auto; border-radius: 18px; border: 1px solid var(--line); scroll-snap-align: start; flex: 0 0 auto; }
+    .faq details { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 20px; margin-bottom: 10px; }
+    .faq summary { font-weight: 700; cursor: pointer; }
+    .faq p { color: var(--muted); margin: 10px 0 0; }
+    .calc-cta { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; }
+    .calc-cta p { margin: 0; color: var(--muted); max-width: 560px; }
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Setrum: Pantau Token Listrik","alternateName":["Setrum","Setrum: Prepaid Power Tracker"],"operatingSystem":"ANDROID","applicationCategory":"UtilitiesApplication","inLanguage":["id","en"],"description":"Aplikasi untuk memantau sisa token listrik prabayar, menghitung pemakaian kWh harian, memprediksi kapan token habis, plus kalkulator token dan alat listrik. Offline, tanpa akun, tanpa iklan.","url":"https://alastic.id/setrum/","downloadUrl":"https://play.google.com/store/apps/details?id=id.alastic.setrum","image":"https://alastic.id/assets/setrum/icon-512.png","offers":{"@type":"Offer","price":"0","priceCurrency":"IDR"},"publisher":{"@type":"Organization","name":"Alastic","url":"https://alastic.id/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"Bagaimana cara Setrum tahu sisa token listrik saya?","acceptedAnswer":{"@type":"Answer","text":"Catat angka sisa kWh yang tampil di meteran sesekali, misalnya tiap pagi. Dari dua catatan atau lebih, Setrum menghitung rata-rata pemakaian harian lalu memperkirakan sisa token saat ini dan tanggal token habis."}},
+    {"@type":"Question","name":"Token listrik Rp100 ribu dapat berapa kWh?","acceptedAnswer":{"@type":"Answer","text":"Tergantung daya dan pajak penerangan daerahmu. Untuk 1.300 VA dengan tarif Rp1.444,70 per kWh dan PBJT/PPJ 3% tanpa biaya admin, Rp100.000 kira-kira menjadi 67,2 kWh. Hitung untuk dayamu di kalkulator token listrik Alastic."}},
+    {"@type":"Question","name":"Apakah Setrum bisa membeli token listrik?","acceptedAnswer":{"@type":"Answer","text":"Tidak. Setrum adalah buku catatan pintar yang bekerja offline. Setrum tidak terhubung dengan perusahaan listrik mana pun dan tidak memproses pembayaran."}},
+    {"@type":"Question","name":"Apakah data saya aman?","acceptedAnswer":{"@type":"Answer","text":"Setrum tidak butuh akun, tanpa iklan dan tanpa pelacak. Semua catatan tersimpan hanya di HP kamu. Satu-satunya yang dikirim adalah pesan masukan yang kamu kirim sendiri."}},
+    {"@type":"Question","name":"Apakah Setrum gratis?","acceptedAnswer":{"@type":"Answer","text":"Ya, gratis tanpa pembelian dalam aplikasi, tersedia di Google Play untuk Android."}}
+  ]}</script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="brand" href="../id/"><img src="../assets/logo.svg" alt="">Alastic</a>
+      <nav><a href="#fitur">Fitur</a><a href="../id/kalkulator-token-listrik.html">Kalkulator</a><a href="#en" class="hide-sm">English</a><a href="privacy.html">Privasi</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero v2">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Token listrik prabayar · Android</span>
+          <h1>Cek sisa token listrik <span>sebelum meteran bunyi.</span></h1>
+          <p class="lead">Setrum menghitung pemakaian kWh harianmu, memperkirakan sisa token saat ini, dan memprediksi tanggal token habis. Tinggal catat angka di meteran sesekali. Gratis, offline, tanpa akun, tanpa iklan.</p>
+          <div class="cta">
+            <a class="btn primary" href="https://play.google.com/store/apps/details?id=id.alastic.setrum">Unduh gratis di Google Play</a>
+            <a class="btn ghost" href="../id/kalkulator-token-listrik.html">Kalkulator token</a>
+          </div>
+        </div>
+        <div class="hero-art"><img src="../assets/setrum/phone-id-1.png" alt="Layar utama Setrum: perkiraan sisa token, hari tersisa, dan tanggal habis" width="260" style="max-width:100%;height:auto;border-radius:24px"></div>
+      </div>
+    </section>
+
+    <section id="fitur">
+      <div class="wrap">
+        <div class="sec-head"><h2>Semua yang kamu butuhkan untuk token listrik</h2></div>
+        <div class="grid">
+          <article class="card"><h3>Sisa token &amp; tanggal habis</h3><p>Perkiraan sisa kWh saat ini, berapa hari lagi, dan tanggal token habis, dengan status Aman, Menipis, atau Segera isi.</p></article>
+          <article class="card"><h3>Peringatan sebelum habis</h3><p>Pengingat harian untuk mencatat dan peringatan saat token menipis, jadi tidak kaget tengah malam.</p></article>
+          <article class="card"><h3>Kalkulator token listrik</h3><p>Rp50 ribu, Rp100 ribu, dan seterusnya dapat berapa kWh, lengkap dengan rincian PBJT/PPJ, PPN, dan biaya admin, plus saran nominal beli.</p></article>
+          <article class="card"><h3>Hitung biaya alat listrik</h3><p>AC, kulkas, rice cooker, pompa air, dan lainnya. Lihat alat paling boros dan simulasikan penghematan dalam rupiah.</p></article>
+          <article class="card"><h3>Riwayat &amp; laporan bulanan</h3><p>Grafik pemakaian 14/30 hari, kalender pemakaian, anggaran bulanan, tren 6 bulan, dan rekap belanja token.</p></article>
+          <article class="card"><h3>Banyak meteran, patungan</h3><p>Rumah, kos, toko dalam satu aplikasi. Bagi biaya token dengan teman kos dan bagikan status lewat WhatsApp.</p></article>
+          <article class="card"><h3>Nomor token tersimpan</h3><p>Tempel SMS atau struk, nomor token 20 digit langsung terbaca dan bisa disalin kapan saja.</p></article>
+          <article class="card"><h3>Widget layar utama</h3><p>Sisa kWh dan hari tersisa langsung di layar HP, dengan tombol catat cepat.</p></article>
+          <article class="card"><h3>Privasi nomor satu</h3><p>Tanpa akun, tanpa iklan, tanpa pelacak. Data hanya di HP kamu. Ekspor CSV dan cadangan JSON untuk pindah HP.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="sec-head"><h2>Lihat tampilannya</h2></div>
+        <div class="shots">
+          <img src="../assets/setrum/phone-id-1.png" alt="Perkiraan sisa token dan tanggal habis" loading="lazy" width="200" height="356">
+          <img src="../assets/setrum/phone-id-2.png" alt="Catat isi token dan sisa kWh" loading="lazy" width="200" height="356">
+          <img src="../assets/setrum/phone-id-3.png" alt="Grafik pemakaian harian" loading="lazy" width="200" height="356">
+          <img src="../assets/setrum/phone-id-4.png" alt="Kalkulator token listrik" loading="lazy" width="200" height="356">
+          <img src="../assets/setrum/phone-id-5.png" alt="Kalkulator biaya alat listrik" loading="lazy" width="200" height="356">
+          <img src="../assets/setrum/phone-id-6.png" alt="Laporan bulanan pemakaian listrik" loading="lazy" width="200" height="356">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="card calc-cta">
+          <div>
+            <h2 style="margin-top:0">Token Rp100 ribu dapat berapa kWh?</h2>
+            <p>Hitung langsung di browser untuk daya rumahmu (900 sampai 6.600 VA ke atas), lengkap dengan pajak penerangan daerah dan biaya admin, plus perkiraan berapa hari token akan bertahan.</p>
+          </div>
+          <a class="btn primary" href="../id/kalkulator-token-listrik.html">Buka kalkulator token listrik</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="wrap">
+        <div class="sec-head"><h2>Pertanyaan umum</h2></div>
+        <details open><summary>Bagaimana cara Setrum tahu sisa token listrik saya?</summary><p>Catat angka sisa kWh yang tampil di meteran sesekali, misalnya tiap pagi. Dari dua catatan atau lebih, Setrum menghitung rata-rata pemakaian harian lalu memperkirakan sisa token saat ini dan tanggal token habis.</p></details>
+        <details><summary>Token listrik Rp100 ribu dapat berapa kWh?</summary><p>Tergantung daya dan pajak penerangan daerahmu. Untuk 1.300 VA dengan tarif Rp1.444,70 per kWh dan PBJT/PPJ 3% tanpa biaya admin, Rp100.000 kira-kira menjadi 67,2 kWh. Hitung untuk dayamu di <a href="../id/kalkulator-token-listrik.html">kalkulator token listrik</a>.</p></details>
+        <details><summary>Bagaimana cara cek sisa kWh di meteran?</summary><p>Sisa kWh biasanya tampil di layar meteran. Beberapa merek punya kode cek, misalnya Hexing 801, Star 07, dan Glomet 37 lalu Enter. Daftar kode juga ada di dalam Setrum.</p></details>
+        <details><summary>Apakah Setrum bisa membeli token listrik?</summary><p>Tidak. Setrum adalah buku catatan pintar yang bekerja offline. Setrum tidak terhubung dengan perusahaan listrik mana pun dan tidak memproses pembayaran.</p></details>
+        <details><summary>Apakah data saya aman?</summary><p>Setrum tidak butuh akun, tanpa iklan dan tanpa pelacak. Semua catatan tersimpan hanya di HP kamu. Satu-satunya yang dikirim adalah pesan masukan yang kamu kirim sendiri.</p></details>
+        <details><summary>Apakah Setrum gratis?</summary><p>Ya, gratis tanpa pembelian dalam aplikasi, tersedia di Google Play untuk Android.</p></details>
+        <p style="color:var(--muted);font-size:14px">Setrum adalah aplikasi independen dan tidak berafiliasi dengan perusahaan listrik mana pun. Tarif bawaan merupakan perkiraan dan dapat disesuaikan dengan struk.</p>
+      </div>
+    </section>
+
+    <section id="en" lang="en">
+      <div class="wrap">
+        <div class="sec-head"><h2>Setrum: Prepaid Power Tracker</h2></div>
+        <div class="card">
+          <p>Setrum tells you how much prepaid electricity credit you have left at any moment, and warns you before the meter alarm starts beeping. Note the kWh shown on your meter now and then, and Setrum works out your daily use, estimates your current credit and predicts the day it runs out.</p>
+          <p>It also includes a token calculator (how many kWh an amount buys, with lighting tax, VAT and admin fee), an appliance cost calculator, monthly reports, multiple meters, bill splitting and a home-screen widget. Free, offline, no account, no ads. Built for Indonesian prepaid electricity meters.</p>
+          <div class="cta"><a class="btn primary" href="https://play.google.com/store/apps/details?id=id.alastic.setrum">Get it on Google Play</a> <a class="btn ghost" href="privacy.html">Privacy policy</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <div class="cols">
+        <a class="brand" href="../id/"><img src="../assets/logo.svg" alt="" width="24" height="24">Alastic</a>
+        <nav>
+          <a href="../id/#products">Produk</a>
+          <a href="../id/guides/token-listrik-prabayar.html">Panduan token listrik</a>
+          <a href="../id/kalkulator-token-listrik.html">Kalkulator token</a>
+          <a href="privacy.html">Kebijakan Privasi</a>
+        </nav>
+      </div>
+      <div class="row"><span>© 2026 PT Alastic Global Industries. Hak cipta dilindungi.</span></div>
+    </div>
+  </footer>
+</body>
+</html>

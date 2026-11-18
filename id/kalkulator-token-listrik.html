@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kalkulator Token Listrik 2026: Rp100 Ribu Dapat Berapa kWh? — Alastic</title>
+  <meta name="description" content="Hitung token listrik prabayar dapat berapa kWh untuk daya 900, 1.300, 2.200 VA dan seterusnya, lengkap dengan PBJT/PPJ, PPN, dan biaya admin, plus perkiraan berapa hari token bertahan. Tarif triwulan IV 2026.">
+  <link rel="canonical" href="https://alastic.id/id/kalkulator-token-listrik.html">
+  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kalkulator Token Listrik: Rp100 Ribu Dapat Berapa kWh?">
+  <meta property="og:description" content="Hitung kWh dari nominal token sesuai daya, pajak penerangan daerah, dan biaya admin. Gratis, langsung di browser.">
+  <meta property="og:url" content="https://alastic.id/id/kalkulator-token-listrik.html">
+  <meta property="og:image" content="https://alastic.id/assets/setrum/feature-graphic-id.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .calc { display: grid; gap: 18px; grid-template-columns: 1fr 1fr; align-items: start; }
+    @media (max-width: 760px) { .calc { grid-template-columns: 1fr; } }
+    .field { display: grid; gap: 6px; margin-bottom: 14px; }
+    .field[hidden] { display: none; }
+    .field label { font-weight: 700; font-size: 14px; }
+    .field small { color: var(--muted); font-size: 13px; }
+    .field input, .field select { font: inherit; font-size: 16px; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); width: 100%; box-sizing: border-box; }
+    .field input:focus, .field select:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
+    .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chips button { font: inherit; font-size: 14px; font-weight: 600; padding: 8px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+    .chips button[aria-pressed="true"] { background: var(--brand); color: #fff; border-color: var(--brand); }
+    .big { font-size: 44px; font-weight: 800; letter-spacing: -.02em; line-height: 1.1; margin: 4px 0; }
+    .big small { font-size: 18px; color: var(--muted); font-weight: 700; }
+    .muted { color: var(--muted); }
+    table.br { width: 100%; border-collapse: collapse; font-size: 15px; margin-top: 10px; }
+    table.br td { padding: 7px 0; border-bottom: 1px solid var(--line); }
+    table.br td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+    table.tbl { width: 100%; border-collapse: collapse; font-size: 15px; }
+    table.tbl th, table.tbl td { padding: 9px 10px; border-bottom: 1px solid var(--line); text-align: right; font-variant-numeric: tabular-nums; }
+    table.tbl th:first-child, table.tbl td:first-child { text-align: left; }
+    .tblwrap { overflow-x: auto; }
+    table.tbl td, #days { white-space: nowrap; }
+    .days { margin-top: 18px; padding-top: 16px; border-top: 1px dashed var(--line); }
+    .prose-body h2 { margin-top: 28px; }
+    .app-note { margin-top: 28px; }
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Kalkulator Token Listrik","url":"https://alastic.id/id/kalkulator-token-listrik.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","inLanguage":"id","offers":{"@type":"Offer","price":"0","priceCurrency":"IDR"},"publisher":{"@type":"Organization","name":"Alastic","url":"https://alastic.id/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"Token listrik Rp100 ribu dapat berapa kWh?","acceptedAnswer":{"@type":"Answer","text":"Untuk daya 1.300 VA atau 2.200 VA (tarif Rp1.444,70 per kWh) dengan PBJT/PPJ 3% dan tanpa biaya admin, Rp100.000 menjadi sekitar 67,2 kWh. Untuk 900 VA non-subsidi (Rp1.352 per kWh) sekitar 71,8 kWh. Hasil sebenarnya tergantung pajak penerangan daerahmu dan biaya admin tempat membeli."}},
+    {"@type":"Question","name":"Bagaimana rumus menghitung kWh token listrik?","acceptedAnswer":{"@type":"Answer","text":"kWh = (nominal − biaya admin) ÷ (1 + PPN) ÷ (1 + PBJT/PPJ) ÷ tarif per kWh. Pajak diambil dari nominal yang kamu bayar, sama seperti rincian di struk token."}},
+    {"@type":"Question","name":"Kenapa kWh yang saya dapat berbeda dengan kalkulator?","acceptedAnswer":{"@type":"Answer","text":"Besar PBJT/PPJ berbeda di tiap kabupaten/kota dan tiap tempat beli bisa mengenakan biaya admin berbeda. Samakan persentase PBJT/PPJ dan admin dengan struk token terakhirmu supaya hasilnya cocok."}},
+    {"@type":"Question","name":"Berapa tarif listrik per kWh saat ini?","acceptedAnswer":{"@type":"Answer","text":"Untuk triwulan IV (Oktober sampai Desember) 2026: 900 VA non-subsidi Rp1.352, 1.300 dan 2.200 VA Rp1.444,70, serta 3.500 VA ke atas Rp1.699,53 per kWh. Tarif dapat berubah tiap triwulan."}}
+  ]}</script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="brand" href="./"><img src="../assets/logo.svg" alt="">Alastic</a>
+      <nav>
+        <a href="./#products">Produk</a>
+        <a href="guides/">Panduan</a>
+        <a href="../setrum/">Setrum</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <article class="article">
+      <h1>Kalkulator Token Listrik</h1>
+      <p class="meta">Hitung token listrik prabayar dapat berapa kWh · Tarif triwulan IV 2026</p>
+
+      <div class="calc">
+        <div class="card">
+          <div class="field">
+            <label for="daya">Daya listrik</label>
+            <select id="daya">
+              <option value="415">450 VA (subsidi) · Rp415/kWh</option>
+              <option value="605">900 VA (subsidi) · Rp605/kWh</option>
+              <option value="1352">900 VA (non-subsidi) · Rp1.352/kWh</option>
+              <option value="1444.7" selected>1.300 VA · Rp1.444,70/kWh</option>
+              <option value="1444.7">2.200 VA · Rp1.444,70/kWh</option>
+              <option value="1699.53">3.500–5.500 VA · Rp1.699,53/kWh</option>
+              <option value="1699.53">6.600 VA ke atas · Rp1.699,53/kWh</option>
+              <option value="custom">Tarif lain (isi sendiri)</option>
+            </select>
+          </div>
+          <div class="field" id="customWrap" hidden>
+            <label for="tarif">Tarif per kWh (Rp)</label>
+            <input id="tarif" type="text" inputmode="decimal" value="1444,7" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="nominal">Nominal token (Rp)</label>
+            <input id="nominal" type="text" inputmode="numeric" value="100.000" autocomplete="off">
+            <div class="chips" id="chips"></div>
+          </div>
+          <div class="row2">
+            <div class="field">
+              <label for="ppj">PBJT/PPJ (%)</label>
+              <input id="ppj" type="text" inputmode="decimal" value="3" autocomplete="off">
+            </div>
+            <div class="field">
+              <label for="admin">Biaya admin (Rp)</label>
+              <input id="admin" type="text" inputmode="numeric" value="0" autocomplete="off">
+            </div>
+          </div>
+          <div class="field">
+            <label for="ppn">PPN (%)</label>
+            <input id="ppn" type="text" inputmode="decimal" value="0" autocomplete="off">
+            <small>PBJT/PPJ berbeda di tiap daerah. Samakan PBJT/PPJ, PPN, dan admin dengan struk token terakhirmu.</small>
+          </div>
+        </div>
+
+        <div class="card" aria-live="polite">
+          <div class="muted">Kamu mendapat sekitar</div>
+          <div class="big" id="kwh">–</div>
+          <table class="br">
+            <tr><td>Dibayar</td><td id="bPaid">–</td></tr>
+            <tr><td>Biaya admin</td><td id="bAdmin">–</td></tr>
+            <tr><td>PPN</td><td id="bPpn">–</td></tr>
+            <tr><td>PBJT/PPJ</td><td id="bPpj">–</td></tr>
+            <tr><td><strong>Untuk listrik</strong></td><td id="bEnergy"><strong>–</strong></td></tr>
+            <tr><td>Harga efektif per kWh</td><td id="bEff">–</td></tr>
+          </table>
+          <div class="days">
+            <div class="field">
+              <label for="use">Pemakaian rata-rata (kWh per hari)</label>
+              <input id="use" type="text" inputmode="decimal" value="5" autocomplete="off">
+            </div>
+            <div><span class="muted">Token ini kira-kira cukup untuk</span> <strong id="days">–</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <h2>Daftar token dan kWh yang didapat</h2>
+        <p class="muted" id="tblNote">Sesuai daya dan pajak yang dipilih di atas.</p>
+        <div class="tblwrap">
+          <table class="tbl">
+            <thead><tr><th>Nominal</th><th>kWh</th><th>Cukup untuk</th></tr></thead>
+            <tbody id="tbl"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="prose-body">
+        <h2>Rumus menghitung kWh token listrik</h2>
+        <p>Nominal yang kamu bayar tidak seluruhnya menjadi kWh. Biaya admin dipotong lebih dulu, lalu pajak (PPN bila ada, dan PBJT/PPJ daerah) diambil dari sisanya, sama seperti rincian di struk token:</p>
+        <p><strong>kWh = (nominal − admin) ÷ (1 + PPN) ÷ (1 + PBJT/PPJ) ÷ tarif per kWh</strong></p>
+        <p>Contoh: token Rp100.000 untuk 1.300 VA, tanpa admin, PBJT/PPJ 3%. Rp100.000 ÷ 1,03 = Rp97.087 untuk listrik. Rp97.087 ÷ Rp1.444,70 = <strong>67,2 kWh</strong>.</p>
+
+        <h2>Tarif listrik per kWh triwulan IV 2026</h2>
+        <ul>
+          <li>450 VA subsidi: Rp415 per kWh</li>
+          <li>900 VA subsidi: Rp605 per kWh</li>
+          <li>900 VA non-subsidi (R-1/TR): Rp1.352 per kWh</li>
+          <li>1.300 VA dan 2.200 VA (R-1/TR): Rp1.444,70 per kWh</li>
+          <li>3.500–5.500 VA (R-2/TR) dan 6.600 VA ke atas (R-3/TR): Rp1.699,53 per kWh</li>
+        </ul>
+        <p>Tarif ditetapkan pemerintah tiap triwulan dan berlaku Oktober sampai Desember 2026. Kalau tarif berubah, pilih "Tarif lain" dan isi angka terbaru.</p>
+
+        <h2>Kenapa hasilnya beda dengan struk?</h2>
+        <p>Besar PBJT/PPJ (pajak penerangan jalan) berbeda di tiap kabupaten/kota, dan tiap tempat beli bisa mengenakan biaya admin berbeda. Lihat struk token terakhirmu, lalu isi persentase PBJT/PPJ dan admin yang sama di kalkulator. Hasilnya akan mendekati angka kWh di struk.</p>
+
+        <h2>Berapa hari token akan bertahan?</h2>
+        <p>Bagi kWh yang didapat dengan pemakaian rata-rata per hari. Cara paling mudah tahu pemakaian harianmu: catat sisa kWh di meteran pada jam yang sama dua hari berturut-turut, lalu kurangkan. Penjelasan lengkapnya ada di <a href="guides/token-listrik-prabayar.html">panduan mencatat token listrik prabayar</a>.</p>
+      </div>
+
+      <aside class="app-note">
+        <h2>Pantau sisa token otomatis dengan Setrum</h2>
+        <p>Setrum menghitung pemakaian harian dari catatan kWh-mu, memperkirakan sisa token saat ini, dan memberi peringatan sebelum token habis. Kalkulator ini juga ada di dalamnya. Gratis, offline, tanpa akun, tanpa iklan.</p>
+        <a class="btn primary" href="https://play.google.com/store/apps/details?id=id.alastic.setrum">Unduh Setrum di Google Play</a>
+        <a class="btn ghost" href="../setrum/">Tentang Setrum</a>
+      </aside>
+    </article>
+  </main>
+  <footer>
+    <div class="wrap">
+      <div class="cols">
+        <a class="brand" href="./"><img src="../assets/logo.svg" alt="" width="24" height="24">Alastic</a>
+        <nav>
+          <a href="./#products">Produk</a>
+          <a href="guides/">Panduan</a>
+          <a href="../setrum/">Setrum</a>
+          <a href="privacy.html">Kebijakan Privasi</a>
+        </nav>
+      </div>
+      <div class="row"><span>© 2026 PT Alastic Global Industries. Hak cipta dilindungi.</span></div>
+    </div>
+  </footer>
+  <script>
+  (function () {
+    var DENOMS = [20000, 50000, 100000, 200000, 500000, 1000000];
+    var $ = function (id) { return document.getElementById(id); };
+    function num(s) {
+      s = String(s || '').trim().replace(/\s/g, '');
+      if (!s) return 0;
+      if (/^\d{1,3}(\.\d{3})+(,\d+)?$/.test(s)) s = s.replace(/\./g, '').replace(',', '.');
+      else s = s.replace(',', '.');
+      var n = parseFloat(s);
+      return isFinite(n) && n > 0 ? n : 0;
+    }
+    function rp(n) { return 'Rp' + Math.round(n).toLocaleString('id-ID'); }
+    function k(n) { return n.toLocaleString('id-ID', { minimumFractionDigits: 1, maximumFractionDigits: 1 }); }
+    function tariff() { var v = $('daya').value; return v === 'custom' ? num($('tarif').value) : parseFloat(v); }
+    function calc(nominal) {
+      var admin = num($('admin').value), ppn = num($('ppn').value), ppj = num($('ppj').value), t = tariff();
+      var base = Math.max(0, nominal - admin), afterPpn = base / (1 + ppn / 100), energy = afterPpn / (1 + ppj / 100);
+      return { admin: Math.min(admin, nominal), ppn: base - afterPpn, ppj: afterPpn - energy, energy: energy, kwh: t > 0 ? energy / t : 0 };
+    }
+    function daysText(kwh) {
+      var u = num($('use').value);
+      if (!u || !kwh) return '–';
+      var d = kwh / u;
+      return d < 1 ? 'kurang dari 1 hari' : '± ' + (d < 10 ? k(d) : Math.round(d)) + ' hari';
+    }
+    function render() {
+      $('customWrap').hidden = $('daya').value !== 'custom';
+      var nominal = num($('nominal').value), r = calc(nominal);
+      $('kwh').innerHTML = nominal ? k(r.kwh) + ' <small>kWh</small>' : '–';
+      $('bPaid').textContent = rp(nominal);
+      $('bAdmin').textContent = '− ' + rp(r.admin);
+      $('bPpn').textContent = '− ' + rp(r.ppn);
+      $('bPpj').textContent = '− ' + rp(r.ppj);
+      $('bEnergy').innerHTML = '<strong>' + rp(r.energy) + '</strong>';
+      $('bEff').textContent = r.kwh ? rp(nominal / r.kwh) : '–';
+      $('days').textContent = daysText(r.kwh);
+      var rows = '';
+      DENOMS.forEach(function (d) { var x = calc(d); rows += '<tr><td>' + rp(d) + '</td><td>' + k(x.kwh) + ' kWh</td><td>' + daysText(x.kwh) + '</td></tr>'; });
+      $('tbl').innerHTML = rows;
+      [].forEach.call($('chips').children, function (b) { b.setAttribute('aria-pressed', String(Number(b.dataset.v) === nominal)); });
+    }
+    DENOMS.concat([5000000]).forEach(function (d) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.dataset.v = d;
+      b.textContent = d >= 1000000 ? (d / 1000000) + ' jt' : (d / 1000) + ' rb';
+      b.addEventListener('click', function () { $('nominal').value = d.toLocaleString('id-ID'); render(); });
+      $('chips').appendChild(b);
+    });
+    ['daya', 'tarif', 'nominal', 'ppj', 'admin', 'ppn', 'use'].forEach(function (id) {
+      $(id).addEventListener('input', render);
+      $(id).addEventListener('change', render);
+    });
+    $('nominal').addEventListener('blur', function () { var n = num(this.value); if (n) this.value = Math.round(n).toLocaleString('id-ID'); });
+    render();
+  })();
+  </script>
+</body>
+</html>
